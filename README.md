@@ -3,8 +3,9 @@ amp-java
 
 Java implementation of AMP (Asynchronous Messaging Protocol) that includes some
 twisted python features like reactors and deferreds. More on AMP can be found
-at "http://amp-protocol.net/". A good place to start to get an overview of the
-project are the example clients and servers in the examples directory.
+at "http://amp-protocol.net/". I mostly added encryption (SSL) support. A good 
+place to start to get an overview of the project are the example clients and 
+servers in the examples directory.
 
 Supported Data Types:
  * AMP Integer  = java.lang.Integer or int
